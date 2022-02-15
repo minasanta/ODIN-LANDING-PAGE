@@ -77,13 +77,14 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25%;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 .card {
     display: flex;
     flex-direction: column;
     width: 150px;
-    height: 250px;
+    height: 350px;
     text-align: center;
     color: #1f2937;
 }
@@ -94,3 +95,67 @@ h1 {
     border: 3px solid #3882f6;
 }
 
+.qoute {
+    background-color: #e5e7eb;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.contanier {
+    margin: 30px 15%;
+    display: flex;
+    flex-direction: column;
+}
+.qoute p {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    margin: 10px 0 10px 0;
+}
+
+.end {
+    font-size: 25px;
+    font-weight: 900;
+    color: #1f2937;
+    align-self: flex-end;
+}
+
+.final {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 15%;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+.right-f h3 {
+    margin-bottom: 0;
+}
+.right-f p {
+    margin-top: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left-f a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    border: 2px solid white;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 25px 0;
+    margin-top: 50px;
+}
